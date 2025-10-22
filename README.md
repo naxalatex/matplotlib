@@ -7,7 +7,8 @@
 
 
 * Sample data
-import matplotlib.pyplot as plt
+
+``` import matplotlib.pyplot as plt
 import numpy as np
 
 x = np.array([2020, 2021, 2022, 2023, 2024])
@@ -28,7 +29,7 @@ line_style = dict(
 * Plot using the defined line style
 plt.plot(x, y1, **line_style)
 plt.show()
-
+```
 * This will produce a line plot with:
 
 - Blue solid line.
