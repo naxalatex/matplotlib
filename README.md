@@ -5,10 +5,8 @@
 
 ## for example:
 
-import matplotlib.pyplot as plt
-import numpy as np
 
-# Sample data
+* Sample data
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -16,7 +14,7 @@ x = np.array([2020, 2021, 2022, 2023, 2024])
 y1 = np.array([0, 1, 2, 3, 4])
 
 <<<<<<< HEAD
-# Define line style properties in a dictionary
+* Define line style properties in a dictionary
 line_style = dict(
     marker='v',                 # Marker style ('v' = downward-pointing triangle)
     markersize=5,               # Size of the markers
@@ -27,11 +25,11 @@ line_style = dict(
     color='Blue'                # Color of the line
 )
 
-# Plot using the defined line style
+* Plot using the defined line style
 plt.plot(x, y1, **line_style)
 plt.show()
 
-This will produce a line plot with:
+* This will produce a line plot with:
 
 - Blue solid line.
 
