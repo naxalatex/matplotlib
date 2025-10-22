@@ -5,10 +5,13 @@
 
 ## for example:
 
-'import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import numpy as np
 
 # Sample data
+import matplotlib.pyplot as plt
+import numpy as np
+
 x = np.array([2020, 2021, 2022, 2023, 2024])
 y1 = np.array([0, 1, 2, 3, 4])
 
